@@ -1,0 +1,54 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2dx4ILYx0gDWKYSRq3GgFIa1OWshxy_Ogw&s);
+
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+.card{
+    width: 310px;
+    height: auto;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 14px;
+    padding: 20px;
+}
+.card__imgage{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.card__name{
+    text-align: center;
+    margin-top: 12px;
+}
+.card__username{
+    color: gray;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.card__bio{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.card__btn{
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 20px;
+}
